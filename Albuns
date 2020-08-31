@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Soundlytical</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Fonts Awesome -->
+    <script src="https://kit.fontawesome.com/47b2f732a5.js" crossorigin="anonymous"></script>
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Ícone -->
+    <link rel="shortcut icon" href="assets/images/icon.png">
+
+
+  </head>
+
+  <body>
+  <!-- jQuery -->
+  <script type="text/javascript" src="assets/js/jquery-3.5.0.min.js"></script>
+  <!-- Bootstrap JS-->
+  <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+  
+
+  <!-- Navbar -->
+  <style>
+    .navbar-custom {
+      background-color: black;
+    }
+
+  /* Definir cor padrão para custom/brand/text */
+
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-text {
+      color: white;
+    }
+  </style>
+<header>
+  <nav class="navbar navbar-custom">
+
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="index.html"><i class="fas fa-home"></i>&nbspHome</a>
+      <a href="#"><i class="material-icons">album</i>&nbspÁlbuns</a>
+      <a href="reviewsingles.html"><i class="material-icons">music_note</i>&nbspSingles</a>
+      <a href="#"><i class="material-icons">playlist_play</i>&nbspPlaylists</a>
+      <a href="#"><i class="fas fa-address-book"></i>&nbspContato</a>
+    </div>
+
+    <div id="main">
+      <button class="openbtn" onclick="openNav()" style="background-color: black;">
+        ☰
+      </button>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+      <img src="assets/images/logo.png" height="60px" class="mx-auto">
+  
+    </nav>
+  </header>
+
+  <!-- Titulo da página reviews -->
+<br>
+  <center><font face="Dead Kansas"><h1 style="font-size: 70px">Reviews - Albuns </h1></font></center>
+<br>
+
+  <!----Jumbotron----->
+  <main>
+  <div class="jumbotron">
+    <div class="container">
+      <center><h1 class="display-3">Apenas as melhores músicas!</h1></center>
+      <p> Aqui estão disponíveis as reviews feitas pela nossa curadoria e indicadas por vocês, nosso público! Além de músicas que estão no highlight hoje em dia, também trazemos o melhor das músicas old school. 
+      </p>
+    </div>
+  </div>
+</main>
+
+  <!-- Música 1 -->
+ <center><h5>Car Seat Headrest - Making a Door Less Open</h5></center>
+<div class="container" style="background-color: black">
+    <br>
+    <center><img class="b" src="assets/images/01.jpg" width="660" height="380"></center>
+    <center><p class="textoR" style="color: white">&nbsp Making a Door Less Open é o décimo segundo álbum de estúdio da banda de rock indie americana Car Seat Headrest. Lançado em 1 de maio de 2020, o álbum em questão consegue manter a essência e os assuntos já tratados anteriormente pela banda enquanto tenta seguir um caminho diferente. Ótimo álbum, consegue transmitir diversos tipos de emoções e tratar de temas como família, amor, sociedade e etc. É recomendado não apenas para os fãs mais fiéis do grupo, mas também para os interessados a conhecer.</p></center>
+   <center> <iframe class="spotify" src="https://open.spotify.com/embed/album/1tuoWW0TpoI5oacIjwYBdL" width="660" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></center>
+</div> 
+<br>
+<br>
+<br>
+<br>
+
+  <!-- Música 2 -->
+ <center><h5>Tyler the Creator - Flower Boy</h5></center>
+    <div class="container" style="background-color: black">
+      <br>
+        <center> <img class="b" src="assets/images/02.jpg" width="660" height="380"></center>
+        <center><p class="textoR" style="color: white">&nbsp Normalmente, o nome Tyler, The Creator anda de mãos dadas com a controvérsia. O rapper é conhecido por conflitos com diferentes celebridades e pela persona agressiva que criou nos seus primeiros trabalhos e adotou até então. Nesses quase 10 anos desde sua primeira mixtape, Tyler fez um personagem de si mesmo. Sempre com um flow afiado e versos construídos de maneira criativa e inspirada, Tyler, The Creator não poupa jogos de palavras e referências, entregando performances memoráveis ao longo do álbum. O rapper alterna sua voz grave com falsetes e momentos mais íntimos, preservando um tom confessional na maior parte das faixas.É um álbum sobre descobrir a si mesmo, sobre lidar com si mesmo, que consegue apresentar um lado mais sensível do rapper.
+      </p></center>
+          <center> <iframe class="spotify" src="https://open.spotify.com/embed/album/2nkto6YNI4rUYTLqEwWJ3o" width="660" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></center>
+    </div>
+      <br>
+      <br>
+      <br>
+      <br>
+
+  <!-- Música 3 -->
+ <center><h5>&nbsp Death Grips - The Money Store</h5></center>
+<div class="container" style="background-color: black">
+    <br>
+   <center> <img class="b" src="assets/images/03.jpg" width="660" height="380"></center>
+    <center><p class="textoR" style="color: white" >&nbsp Praticamente nada se sabia sobre o misterioso grupo de Sacramento até o momento em que The Money Store foi lançado. Aqui, a interação entre os brados enfurecidos de MC Ride e o conteúdo instrumental finalmente encontrou seu ponto de maior coesão. As batidas fornecidas pelo produtor Zach Hill, que de fato executa-as em uma bateria eletrônica, atingem um nível enérgico que faz jus à performance do rapper que as acompanha. Já no quesito samples, Hill e Andy Morin — tecladista e engenheiro de áudio — buscaram economizar, utilizando principalmente intervenções instrumentais originais ou, em alguns casos, trechos de outras músicas altamente modificados no computador. Aprendendo com o punk algumas lições sobre como manter um álbum intenso do início ao fim, as faixas possuem estrutura simples, vão direto ao ponto e poucas vezes excedem os três minutos e meio de duração.</p></center>
+   <center> <iframe class="spotify" src="https://open.spotify.com/embed/album/1PQDjdBpHPikAodJqjzm6a" width="660" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></center>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+  <!-- Música 4 -->
+<center> <h5>&nbsp Slipknot - We Are Not Your Kind</h5></center>
+<div class="container" style="background-color: black">
+    <br>
+   <center> <img class="b" src="assets/images/04.jpg" width="660" height="380"></center>
+   <center> <p class="textoR" style="color: white" >&nbsp Logo nos primeiros minutos, o álbum é capaz de mostrar que a banda está em grande forma. A angustiante introdução “Insert Coin” prepara o ouvinte para “Unsainted”, que carrega todas as qualidades de uma boa canção do Slipknot: guitarras pesadas conduzidas por uma bateria inspirada que unidas à samples culminam em um dos mais cativantes refrões do grupo. Essa receita se repete por diversas vezes em We Are Not Your Kind, em faixas como “Birth of the Cruel”, “Red Flag” e “Orphan”, que canalizam toda a agressividade do grupo com um instrumental afiado e poderiam facilmente figurar em álbuns anteriores. Esse mergulho dentro das próprias origens fez muito bem à sonoridade do disco, que traz de volta samples e percussões após uma sequência de lançamentos em que foram deixados de lado. Faixas como “Nero Forte” e “Critical Darling” se tornam ainda mais cativantes graças à participação de Shawn Crahan e do novo - e anônimo - percussionista do grupo, que conduzem momentos chave das canções. O mesmo pode-se dizer a respeito de Sid Wilson e Craig Jones, respectivamente DJ e sampler, que são responsáveis por ampliar a atmosfera desoladora que permeia todo o álbum.</p></center>
+   <center> <iframe class="spotify" src="https://open.spotify.com/embed/album/754RY5WpZ2LTUZsk8kDBju" width="660" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></center>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+  <!-- Música 5 -->
+<center> <h5>&nbsp Sepultura - Roots</h5></center>
+<div class="container" style="background-color: black">
+    <br>
+   <center> <img class="b" src="assets/images/05.jpg" width="660" height="380"></center>
+   <center> <p class="textoR" style="color: white"  >&nbsp Passados 20 anos do seu lançamento, "Roots" segue dividindo opiniões. Enquanto uma parcela dos fãs e críticos apontam o disco como o mais importante da carreira do Sepultura, outra parte simplesmente não consegue digerir a sua sonoridade e experimentações e detesta o álbum, apontando-o como o responsável pelo início do fim do quarteto mineiro. Para alguns, a banda errou ligeiramente o alvo em seu novo disco, deixando de lado o velho thrash de raiz que caracterizava a banda até agora. O disco começa muito bonito com "Roots Bloody Roots", uma grande faixa de abertura que envolve todas as qualidades do Sepultura. "Attitude", com influências do Fudge Tunnel e do Clutch, é outro destaque. Mas com o decorrer das faixas o álbum vai ficando mais louco e confuso, dividindo o público.</p></center>
+   <center><iframe class="spotify" src="https://open.spotify.com/embed/album/5JjnPCfpp6redrkKpXZAs8" width="660" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></center>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+  <!-- Música 6 -->
+ <center><h5>&nbsp Pantera - History of Hostility</h5></center>
+<div class="container" style="background-color: black">
+    <br>
+   <center> <img class="b" src="assets/images/06.jpg" width="660" height="380"></center>
+    <center><p class="textoR" style="color: white" >&nbsp No final dos anos oitenta, o Pantera resolveu repensar sua proposta glam metal e decidiu investir em uma pegada mais thrash e extrema, que começou a ser vista no disco Cowboys From Hell (1990). Assim nasceu a sonoridade que faria o grupo conhecido no mundo inteiro, sendo um dos mais influentes da história do metal. É nessa pegada que a Warner decidiu colocar na praça mais uma coletânea do grupo. History of Hostility reúne nove faixas que resumem a trajetória “groove metal” de Phil Anselmo, Vinnie Paul, Rex Brown e do lendário Dimebag Darrell, passando por canções históricas como “Cemetary Gates”, “Walk”, “I’m Broken” e "5 Minutes Alone". As músicas passam pelos últimos cinco lançamentos do grupo - uma síntese da melhor fase da banda.</p></center>
+   <center> <iframe class="spotify" src="https://open.spotify.com/embed/playlist/18xrcmlFM2Od0qcRWXZ1wC" width="660" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></center>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+  <!-- Música 7 -->
+ <center><h5>&nbsp Migos - Culture 2</h5></center>
+<div class="container" style="background-color: black">
+    <br>
+   <center> <img class="b" src="assets/images/07.jpg" width="660" height="380"></center>
+   <center> <p class="textoR" style="color: white" >&nbsp Repetição, é um elemento usado com inteligência pelo Migos. Qualquer termo parece entrar fácil nessa onda de reverberação que favorece o trio. Parece ridículo, mas não demora pro ouvinte ficar repetindo ‘bad bitches only’ (‘apenas vadias malvadas’) na faixa de mesmo nome com participação de 21 Savage – neste caso, vale a pena mencionar o pano de fundo que lembra uma festa jazzística de algum filme antigo; a produção é de Kanye West, DJ Durel, Buddah Bless e de Quavo. Quando a repetição não é usada ostensivamente, o trio faz questão de desacelerar o esquema vocal. Isso torna as canções de Culture II facilmente assobiáveis, não importa se eles estejam falando de mulheres bonitas, carros importados ou de frango xadrez – vide o o divertido clipe de “Stir Fry”, mais uma das viciantes. </p></center>
+   <center> <iframe class="spotify" src="https://open.spotify.com/embed/album/7fd7SEK25VS3gJAUgSwL6y" width="660" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></center>
+</div>
+<br>
+<br>
+<p>
+
+
+<!-- Rodapé -->
+
+<div class="footer">
+  <div class="row">
+      <div class="col-md-4" align="left">
+          <img src="assets/images/logo.png" height="20px" >
+  </div>
+      <div class="col-md-4" align="center">
+          <p>&copy; Soundlytical Inc. 2020</p>
+  </div>
+      <div class="col-md-4" align="right">
+        <i class="fa fa-twitter"></i></a>&nbsp;
+        <i class="fa fa-facebook"></i></a>&nbsp;
+        <i class="fa fa-instagram"></i></a>&nbsp;
+        <a href="https://www.last.fm/user/Prestigy"><i class="fab fa-lastfm"></i></a>  
+        
+  </div>
+</div>
+
+</body>
+
+</html>
